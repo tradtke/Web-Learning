@@ -1,0 +1,100 @@
+//Variable Defs
+@24Orange:				#FAA61A;
+@24OrangeAccent:	#E58C1B;
+@24Blue:					#009DDB;
+@24BlueAccent:		#0685C1;
+@24Green:					#BECE23;
+@24GreenAccent:		#9FB122;
+
+@themeColor: 			@24Orange;
+@themeAccent:			@24OrangeAccent;
+
+html {
+	h1 {
+		text-align: center;
+		color: white;
+		font-family: sans-serif;
+		font-size: 40pt;
+	}
+	h2 {
+		text-align: center;
+		color: white;
+		font-family: sans-serif;
+		font-size: 20pt;
+		margin-bottom: 0px;
+		margin-top: 50px;
+	}
+}
+// Header and frame constructs
+.blankSpace { //NO Taylor Swift
+	//background-color: #000;
+	display: table-cell;
+	height: 100px;
+	width: 355px;
+}
+#endBlank {
+	width: 280px;
+}
+.frameNum {
+	background-color: @themeAccent;
+	height: 125px;
+	max-width: 1920px;
+	width: 100%;
+	padding-top: 20px;
+}
+.frame {
+	display: table-cell;
+	height: 100px;
+	width: 120px;
+//  border-right-style: solid;
+//	border-right-color: @themeColor;
+//	border-right-width: 2pt;
+	padding-top: 10px;
+}
+// Special formatting for the 10th frame
+#frame10 {
+	width: 170px;
+	border-right-style: none;
+}
+
+//Row Construct
+.playerRow {
+	background-color: @themeColor;
+	height: 125px;
+	max-width: 1910px;
+	border-bottom-style: solid;
+	border-bottom-width: 2pt;
+	border-bottom-color: @themeAccent;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+//Player information constructs
+.playerImgBlock {
+	display: table-cell;
+	height: 120px;
+	width: 130px;
+	padding-right: 10px;
+	background-image: url(/2016_BowlingScoring_Tim/assets/img/Default-user-orange.png);
+	background-position: center center;
+}
+.playerName {
+	display: table-cell;
+	height: 120px;
+	width: 200px;
+	border-right-style:solid;
+	border-right-color:@themeAccent;
+
+}
+
+.scoreCell {
+
+}
+
+.footer {
+	background-color: @themeAccent;
+	height: 83px;
+	max-width: 1920px;
+	width: 100%;
+}
